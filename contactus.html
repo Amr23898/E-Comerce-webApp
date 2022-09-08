@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./style/home.css">
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+          <a href="home.html"><img src="./imges/logo.png" width="110px" height="70px"></a>
+          <input type="search" id="search" placeholder="Search any Category">
+        </div>
+        <div id="links">
+          <a href="home.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contactus.html">Contact Us</a>
+        </div>
+        <div id="carts">
+          <img src="./imges/cart.png" width="40px" height="30px">
+        <span id="co">
+          <p id="count">0</p>
+        </span>
+        <a href="#foot"><img id="imgb" src="./imges/b.png" width="50px" height="50px"></a>
+        </div>
+      </div>
+
+<section id="info">
+    <div id="imgcontact">
+<img src="./imges/contact1.png" width="800px" height="500px">
+    </div>
+
+    <div id="information">
+<h3>Plz, Fill This Form</h3>
+<form  action="">
+    
+    <input type="text" id="uname" placeholder="Plz,Enter name ex:Ahmed (5char)" required pattern="[a-zA-Z]{5,}">
+    <input type="text" id="email" placeholder="Enter Email ex:Ahmed123@gmail.com" required pattern="[a-z]{5,}[0-9]{3,}@gmail.com">
+    <input type="text" id="phone" placeholder="Enter your phone (01012859449)" required pattern="01+[0,1,2,5][0-9]{8}">
+    <input type="text" id="adress" placeholder="Enter your Adress (10 ezz stret)">
+    <select aria-placeholder="Choice Country">
+        <option id="select">Select your Country</option>
+        <option>Eygpt</option>
+        <option>Emarats</option>
+        <option>Suodia</option>
+    </select>
+   
+    <textarea id="area" cols="60" rows="10" form="form1" placeholder="Enter Your Suggetion"></textarea>
+<br>
+
+    <input  id="sub" type="submit" name="submit" value="Submit">
+    <input id="rest" type="reset" name="Reset" value="Reset">
+</form>
+    </div>
+    
+</section>
+<div  id="imgup">
+    <a href="#header"><img id="imgu" src="./imges/u.png" alt="" width="80px" height="70px"></a>
+   </div>
+      <div id="foot">
+        <footer>
+        <div id="col1">
+        <h5>Download  Our App</h5>
+        <p>Download for Andriod Phone</p>
+        <img src="./imges/googleplay.png" width="120px" height="40px">
+        </div>
+        <div id="col11">
+          <h5>Download  Our App</h5>
+          <p>Download for  iOS Phone</p>
+          <img src="./imges/appstore.png" width="120px" height="40px">
+              </div>
+              <div id="col111">
+                <h5>My Company Logo</h5>
+                <p>Shopping Company</p>
+                <img src="./imges/footerlogo.png" width="150px" height="90px">
+                    </div>
+        
+        <div id="social">
+        <span id="soc1">
+        <img src="./imges/f.png" alt="" width="40px" height="30px">
+        <h4>Facebook Page</h4>
+        </span>
+        <span id="soc2">
+        <img src="./imges/twatter.png" alt="" width="40px" height="30px">
+        <h4>Twitter Page</h4>
+        </span>
+        <span id="soc3">
+        <img src="./imges/linked.png" alt="" width="30px" height="30px">
+        <h4>  Linkedin Page</h4>
+        </span>
+        </div>
+        </footer> 
+        <hr>
+        <h5>Auther by : Amr magdy Mohamed</h5>
+        </div> 
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./style/home.css">
+    <style>
+        #contaner{
+            width: 550px;
+            padding: 10px;
+            background-color: rgb(223, 213, 213);
+            margin-left: 50%;
+        }
+        input{
+            border-radius: 8px;
+        }
+        btn{
+            margin-left: 20%;
+        }
+        #btns{
+            margin-top: 10px;
+            margin-left: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+          <a href="home.html"><img src="./imges/logo.png" width="120px" height="60px"></a>
+          <input type="search" id="search" placeholder="Search any Category">
+        </div>
+        <div id="links">
+          <a href="home.html">Home</a>
+          <a href="index.html">About</a>
+          <a href="contactus.html">Contact Us</a>
+        </div>
+        <div id="carts">
+          <img src="./imges/cart.png" width="40px" height="30px">
+        <span id="co">
+          <p id="count">0</p>
+        </span>
+        <a href="#bottom"><img id="imgb" src="./imges/b.png" width="50px" height="50px"></a>
+        </div>
+      </div>
+   <form>
+    <div id="contaner">
+        <label for="username">User Name :</label>
+        <input type="text" id="username" pattern="[a-zA-Z]"  placeholder="Amr Magdy not amr1236">
+    </div>
+    <div id="contaner">
+        <label for="pass">Password :</label>
+        <input type="password" id="username" pattern="[a-zA-Z][0-9]" placeholder="amr123 or Amr123 ">
+    </div>
+    <div id="contaner">
+        <label for="Telphone">Telphone :</label>
+        <input type="tel" id="Telphone" pattern="[0-9]{11}" placeholder="ex:01012859449">
+    </div>
+    <div id="contaner">
+        <label>Gender :</label>
+        <input type="radio" id="m" value="Male"  name="gender">Male
+        <input type="radio" id="f" value="Female"  name="gender">Female
+    </div>
+    <div id="contaner">
+        <label>Favorate Subject :</label>
+        <input type="checkbox" value="Sport" name="Sport">Sport
+        <input type="checkbox" value="Swimming" name="Swimming">Swimming
+        <input type="checkbox" value="Running" name="Running">Running
+        <input type="checkbox" value="Reading" name="Reading">Reading
+        <input type="checkbox" value="Programming" name="Programming">Programming
+    </div>
+    <div id="contaner">
+        <label>Favorate Color :</label>
+          <input type="color">
+    </div>
+    <div id="contaner">
+        <label>Date :</label>
+          <input type="datetime-local">
+    </div>
+    <div id="contaner">
+        <label>Programing Language :</label>
+        <input type="text" list="ProgramingLanguage">
+        <datalist id="ProgramingLanguage">
+           <option>C++</option>
+           <option>C#</option>
+           <option>HTML</option>
+           <option>CSS</option>
+           <option>JAVA SCRIPT</option>
+           <option>JAVA SE</option>
+        </datalist>
+    </div>
+    <div id="btns">
+        <input type="submit" name="Submit" width="80px" id="btn">
+
+    </div>
+   </form>
+</body>
+</html> -->

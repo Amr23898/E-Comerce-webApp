@@ -1,0 +1,152 @@
+header{
+    width: 91%;
+    height: 170px;
+    margin-left: 4%;
+    background-color:#ebc0a1;
+    border: 1px solid #86a2b4;
+    border-radius: 10px;
+    margin-top: 15px;
+   
+}
+
+
+#person{
+    width: 150px;
+    height:150px;
+    float: left;
+    border: 2px solid rgb(27, 14, 145);
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 7px;
+  
+}
+#name{
+    width: 80%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+#job{
+    width: 70%;
+    text-align: center;
+    margin-left: 110px;
+}
+#sec1{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: right;
+    background-color:#E1FFEE;
+    border: 1px solid #19b85e;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    height: 230px;
+}
+#seccontact{
+    width: 50%;
+    height: 220px;
+    background-color: #F5EDDC;
+    padding: 0px;
+    
+}
+
+#seccontact img{
+    width: 35px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+#seccontact h2{
+    text-align: center;
+    color: blue;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+#ach{
+    width: 48%;
+    height: 220px;
+    background-color: #F5EDDC;
+    float: right;
+    margin-right: 15px;
+}
+#ac{
+    background-color: #F7A76C;
+    width: 85%;
+    text-align: center;
+    margin-left: 25px;
+    color: #eee;
+    height: 30px;
+  }
+#ac h1{
+    margin-top: 2px;
+}
+#tab{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+span{
+    margin-right: 10px;
+}
+
+meter{
+    width: 250px;
+    height: 15px;
+    
+}
+#degre{
+    width: 200px;
+    height: 10px;
+}
+h4{
+    margin-bottom: 0px;
+    margin-top:0px ;
+}
+#com{
+    margin-right: 10px;
+}
+#met1{
+    width: 35%;
+    margin-top: 10px;
+}
+#list{
+    float: right;
+}
+#sec2{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: right;
+    background-color:#E1FFEE;
+    border: 1px solid #19b85e;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    height: 280px;
+}
+#education{
+    width: 48%;
+    height: 270px;
+    background-color: #F5EDDC;
+    float: right;
+    margin-right: 15px;
+    margin-top: 2px;
+
+}
+#lang{
+    width: 50%;
+    height: 270px;
+    background-color: #F5EDDC;
+    padding: 0px;
+}
+#lang h2{
+    text-align: center;
+    color: blue;
+    margin-top: 0%;
+    margin-bottom: 5px;
+}
+#l1{
+border-radius: 50%;
+}

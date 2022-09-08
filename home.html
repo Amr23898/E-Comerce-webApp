@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link href="./style/home.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="header">
+      <div id="logo">
+        <a href="home.html"><img src="./imges/logo.png" width="110px" height="70px"></a>
+        <input type="search" id="search" placeholder="Search any Category">
+      </div>
+      <div id="links">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contactus.html">Contact Us</a>
+      </div>
+      <div id="carts">
+        <img src="./imges/cart.png" width="40px" height="30px">
+      <span id="co">
+        <p id="count">0</p>
+      </span>
+      <a href="#foot"><img id="imgb" src="./imges/b.png" width="50px" height="50px"></a>
+      </div>
+    </div>
+    <div id="container">
+          <div id="slider">
+        <img class="img1" src="./imges/12.jpg" alt="" /><br />
+      </div>
+      <section id="Category">
+        <button id="mobile" onclick="displaymob()">Mobile</button>
+        <button id="jacket" onclick="displayjacket()">Jackets</button>
+        <button id="teshirt" onclick="displayshirt()">T-Shirt</button>
+        <button id="trouse" onclick="displaytrouser()">Trousers</button>
+      </section>
+      <section id="product">
+        <section id="mobiles">
+          <div id="mob1">
+            <img src="./mob/1.jpg" alt="mob1" />
+            <b><p>Samsung Galaxy A32</p></b>
+               <b><p>Price : 7,499 $</p></b>
+            <button id="add" onclick="addToCart()">Add To Cart +</button>
+          </div>
+          <div id="mob1">
+            <img src="./mob/2.jpg" alt="mob1" />
+            <b><p>Samsung Galaxy C50</p></b>
+                        <b><p>Price : 8,000$</p></b>
+            <button id="add" onclick="addToCart()">Add To Cart +</button>
+          </div>
+          <div id="mob1">
+            <img src="./mob/3.png" alt="mob1" />
+            <b><p>Samsung Galaxy A70</p></b>
+             <b><p>Price : 6,899$</p></b>
+            <button id="add" onclick="addToCart()">Add To Cart +</button>
+          </div>
+          <div id="mob1">
+            <img src="./mob/4.jpg" alt="mob1" />
+            <b><p>Samsung Galaxy A52</p></b>
+            <b><p>Price : 4,499$</p></b>
+            <button id="add" onclick="addToCart()">Add To Cart +</button>
+          </div>
+          <div id="mob1">
+            <img src="./mob/5.jpg" alt="mob1" />
+            <b><p>Samsung Galaxy J30</p></b>
+            <b><p>Price : 8,499$</p></b>
+            <button id="add" onclick="addToCart()">Add To Cart +</button>
+          </div>
+          <div id="mob1">
+            <img src="./mob/6.jpg" alt="mob1" />
+            <b><p>1-Samsung Galaxy M53 </p></b>
+            <b><p>4-Price : 8,499$</p></b>
+            <button id="add" onclick="addToCart()">Add To Cart + </button>
+          </div>
+        </section>
+        <section id="jackets">
+          <div id="mob1">
+            
+            <img src="./jackets/1.jpg" alt="mob1" />  
+         <b>
+          <p>First Jacket</p>
+          <p>Price : 800 $</p> 
+         </b>        
+            <button id="add" onclick="addToCart()">Add To Cart +</button>
+          </div>
+          <div id="mob1">
+            
+            <img src="./jackets/2.jpg" alt="mob1" />
+            <b>
+              <p>Second Jacket</p>
+            <p>Price : 850 $</p>
+            </b>
+            <button id="add" onclick="addToCart()">Add To Cart +</button>
+          </div>
+          <div id="mob1">
+           
+            <img src="./jackets/3.jpg" alt="mob1" />
+            <b>
+              <p>Third Jacket</p>
+            <p>Price : 700 $</p>
+            </b>
+            <button id="add" onclick="addToCart()">Add To Cart +</button>
+          </div>
+          <div id="mob1">
+            
+            <img src="./jackets/4.png" alt="mob1" />
+            <b><p>Forth Jacket</p>
+              <p>Price : 760 $</p></b>
+            <button id="add" onclick="addToCart()">Add To Cart +</button>
+          </div>
+          <div id="mob1">
+            
+            <img src="./jackets/5.jpg" alt="mob1" />
+            <b><p>fifth Jacket</p>
+              <p>Price : 680 $</p></b>
+            <button id="add" onclick="addToCart()">Add To Cart +</button>
+          </div>
+          <div id="mob1">
+            <img src="./jackets/6.jpg" alt="mob1" />
+           <b><p>six Jacket</p></b> 
+            <b><p>Price : 800 $</p></b>
+            <button id="add" onclick="addToCart()">Add To Cart +</button>
+          </div>
+        </section>
+        <section id="tshirt">
+          <div id="mob1">
+            <img src="./teshirt/1.jpg" alt="mob1" />
+           <b>
+            <p>T-Shirt White</p>
+            <p>Price : 80 $</p>
+           </b>
+            <button id="add" onclick="addToCart()">Add To Cart</button>
+          </div>
+          <div id="mob1">
+            <img src="./teshirt/2.jpg" alt="mob1" />
+            <b>
+              <p>T-Shirt Blue Dark</p>
+              <p>Price : 80 $</p>
+             </b>
+            <button id="add" onclick="addToCart()">Add To Cart</button>
+          </div>
+          <div id="mob1">
+            <img src="./teshirt/3.jpg" alt="mob1" />
+            <b>
+              <p>T-Shirt Blue</p>
+              <p>Price : 80 $</p>
+             </b>
+            <button id="add" onclick="addToCart()">Add To Cart</button>
+          </div>
+          <div id="mob1">
+            <img src="./teshirt/4.jpg" alt="mob1" />
+            <b>
+              <p>T-Shirt black</p>
+              <p>Price : 80 $</p>
+             </b>
+            <button id="add" onclick="addToCart()">Add To Cart</button>
+          </div>
+          <div id="mob1">
+            <img src="./teshirt/5.jpg" alt="mob1" />
+            <b>
+              <p>T-Shirt White</p>
+              <p>Price : 80 $</p>
+             </b>
+            <button id="add" onclick="addToCart()">Add To Cart</button>
+          </div>
+          <div id="mob1">
+            <img src="./teshirt/6.jpg" alt="mob1" />
+            <b>
+              <p>T-Shirt Blue </p>
+              <p>Price : 80 $</p>
+             </b>
+
+            <button id="add" onclick="addToCart()">Add To Cart</button>
+          </div>
+        </section>
+        <section id="trouser">
+          <div id="mob1">
+            <img src="./teouser/1.jpg" alt="mob1" />
+            <b><p>Buny Trousers</p></b>
+            <b><p>Price : 99 $</p></b>
+            <button id="add" onclick="addToCart()">Add To Cart</button>
+          </div>
+          <div id="mob1">
+            <img src="./teouser/2.jpg" alt="mob1" />
+            <b><p>white Trousers</p></b>
+            <b><p>Price : 150 $</p></b>
+            <button id="add" onclick="addToCart()">Add To Cart</button>
+          </div>
+          <div id="mob1">
+            <img src="./teouser/3.jpg" alt="mob1" />
+            <b><p>clothes Trousers</p></b>
+            <b><p>Price : 99 $</p></b>
+            <button id="add" onclick="addToCart()">Add To Cart</button>
+          </div>
+          <div id="mob1">
+            <img src="./teouser/4.jpg" alt="mob1" />
+            <b><p>Red Trousers</p></b>
+            <b><p>Price : 109 $</p></b>
+            <button id="add" onclick="addToCart()">Add To Cart</button>
+          </div>
+          <div id="mob1">
+            <img src="./teouser/5.jpg" alt="mob1" />
+            <b><p>Gabarden Trousers</p></b>
+            <b><p>Price : 159 $</p></b>
+            <button id="add" onclick="addToCart()">Add To Cart</button>
+          </div>
+          <div id="mob1">
+            <img src="./teouser/6.jpg" alt="mob1" />
+            <b><p>Gray Trousers</p></b>
+            <b><p>Price : 99 $</p></b>
+
+            <button id="add" onclick="addToCart()">Add To Cart</button>
+          </div>
+        </section>
+      </section>
+      <section>
+        <div class="header">
+          <div class="img1">
+            <h3>215 X 150px</h3>
+          </div>
+          <div class="img1">
+            <h3>215 X 150px</h3>
+          </div>
+          <div class="img1">
+            <h3>215 X 150px</h3>
+          </div>
+          <div class="img1">
+            <h3>215 X 150px</h3>
+          </div>
+        </div>
+      </section>
+      <div id="p1">
+        <h2>My Story</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+          minus voluptate architecto itaque consequatur tenetur ipsam mollitia
+          doloribus corrupti quam tempora nisi error possimus adipisci,
+          recusandae quasi laudantium earum cumque.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+          minus voluptate architecto itaque consequatur tenetur ipsam mollitia
+          doloribus corrupti quam tempora nisi error possimus adipisci,
+          recusandae quasi laudantium earum cumque.
+        </p>
+      </div>
+      <div id="p2">
+        <h2>My Story</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+          minus voluptate architecto itaque consequatur tenetur ipsam mollitia
+          doloribus corrupti quam tempora nisi error possimus adipisci,
+          recusandae quasi laudantium earum cumque.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+          minus voluptate architecto itaque consequatur tenetur ipsam mollitia
+          doloribus corrupti quam tempora nisi error possimus adipisci,
+          recusandae quasi laudantium earum cumque.
+        </p>
+    
+    </div>
+    <div id="p1">
+        <h2>My Story</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+          minus voluptate architecto itaque consequatur tenetur ipsam mollitia
+          doloribus corrupti quam tempora nisi error possimus adipisci,
+          recusandae quasi laudantium earum cumque.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+          minus voluptate architecto itaque consequatur tenetur ipsam mollitia
+          doloribus corrupti quam tempora nisi error possimus adipisci,
+          recusandae quasi laudantium earum cumque.
+        </p>
+      </div>
+      <div id="p2">
+        <h2>My Story</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+          minus voluptate architecto itaque consequatur tenetur ipsam mollitia
+          doloribus corrupti quam tempora nisi error possimus adipisci,
+          recusandae quasi laudantium earum cumque.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+          minus voluptate architecto itaque consequatur tenetur ipsam mollitia
+          doloribus corrupti quam tempora nisi error possimus adipisci,
+          recusandae quasi laudantium earum cumque.
+        </p>
+        </div>
+        <div id="p1">
+            <h2>My Story</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+              minus voluptate architecto itaque consequatur tenetur ipsam mollitia
+              doloribus corrupti quam tempora nisi error possimus adipisci,
+              recusandae quasi laudantium earum cumque.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+              minus voluptate architecto itaque consequatur tenetur ipsam mollitia
+              doloribus corrupti quam tempora nisi error possimus adipisci,
+              recusandae quasi laudantium earum cumque.
+            </p>
+          </div>
+          <div id="p2">
+            <h2>My Story</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+              minus voluptate architecto itaque consequatur tenetur ipsam mollitia
+              doloribus corrupti quam tempora nisi error possimus adipisci,
+              recusandae quasi laudantium earum cumque.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+              minus voluptate architecto itaque consequatur tenetur ipsam mollitia
+              doloribus corrupti quam tempora nisi error possimus adipisci,
+              recusandae quasi laudantium earum cumque.
+            </p>
+            </div>
+            <div id="logophone">
+              <img src="./imges/logophone.jpg" width="100%" height="25%">
+            </div>
+          
+           <div  id="imgup">
+            <a href="#header"><img id="imgu" src="./imges/u.png" alt="" width="80px" height="70px"></a>
+           </div>
+<div id="foot">
+  <footer>
+    <div id="col1">
+<h5>Download  Our App</h5>
+<p>Download for Andriod Phone</p>
+<img src="./imges/googleplay.png" width="120px" height="40px">
+    </div>
+    <div id="col11">
+      <h5>Download  Our App</h5>
+      <p>Download for  iOS Phone</p>
+      <img src="./imges/appstore.png" width="120px" height="40px">
+          </div>
+          <div id="col111">
+            <h5>My Company Logo</h5>
+            <p>Shopping Company</p>
+            <img src="./imges/footerlogo.png" width="150px" height="90px">
+                </div>
+
+<div id="social">
+<span id="soc1">
+  <img src="./imges/f.png" alt="" width="40px" height="30px">
+  <h4>Facebook Page</h4>
+</span>
+<span id="soc2">
+  <img src="./imges/twatter.png" alt="" width="40px" height="30px">
+  <h4>Twitter Page</h4>
+</span>
+<span id="soc3">
+  <img src="./imges/linked.png" alt="" width="30px" height="30px">
+  <h4>  Linkedin Page</h4>
+</span>
+</div>
+</footer> 
+<hr>
+<h5>Auther by : Amr magdy Mohamed</h5>
+</div>   
+<hr>        
+             
+           
+    <script>
+      function displaymob() {
+        var mob = (document.getElementById("mobiles").hidden = false);
+        var mob = (document.getElementById("jackets").hidden = true);
+        var mob = (document.getElementById("tshirt").hidden = true);
+        var mob = (document.getElementById("trouser").hidden = true);
+      }
+      displaymob();
+      function displayjacket() {
+        var mob = (document.getElementById("mobiles").hidden = true);
+        var mob = (document.getElementById("jackets").hidden = false);
+        var mob = (document.getElementById("tshirt").hidden = true);
+        var mob = (document.getElementById("trouser").hidden = true);
+      }
+
+      function displayshirt() {
+        var mob = (document.getElementById("mobiles").hidden = true);
+        var mob = (document.getElementById("jackets").hidden = true);
+        var mob = (document.getElementById("tshirt").hidden = false);
+        var mob = (document.getElementById("trouser").hidden = true);
+
+        //var mob=document.getElementById("mobile").displaymob=true;
+      }
+      function displaytrouser() {
+        var mob = (document.getElementById("mobiles").hidden = true);
+        var mob = (document.getElementById("jackets").hidden = true);
+        var mob = (document.getElementById("tshirt").hidden = true);
+        var mob = (document.getElementById("trouser").hidden = false);
+
+        //var mob=document.getElementById("mobile").displaymob=true;
+      }
+      var elements = document.getElementsByClassName("img1");
+      var i = 12;
+      setInterval(() => {
+        if (i == 19) i = 12;
+        elements[0].src = "./imges/" + i + ".jpg";
+        i++;
+      }, 2000);
+      var  cartItems=0;
+      function addToCart() {
+    cartIcon = document.getElementById("count");
+    cartItems++;
+    cartIcon.innerHTML=""+cartItems+"";
+
+  
+}
+    </script>
+  </body>
+</html>
+
+
+
